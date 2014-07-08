@@ -1,13 +1,9 @@
 This is a fortunes logging application that uses the micro-framework Camping created by _why.  
 
-The application was created back in 2006 just to see how far I could take it and it is still in 
-production today.  I won't tell you where it is running in order to protect the innocent and 
-guilty alike.
+The application was created back in 2006 just to see how far I could take it and it is still in production today.  I won't tell you where it is running in order to protect the innocent and guilty alike.
 
-I reviewed the code a bit, before committing it to github, and a few things I'd do to fix it up:
-*  Some of the longer and/or more confusing methods need to be broken down into smaller methods.  
-*  The passwords need to be hashed and ssl support added.  
-*  The CSS should be imported from another file.
-*  Configurable settings need to be read from a config file.
+TODO:
+*  Refactor methods that are too long.  
+*  Import the CSS from another file.
+*  Add a config file.
 
-I am not going to say what I plan to do with this in the future until I actually start doing something.
